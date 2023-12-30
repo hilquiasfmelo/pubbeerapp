@@ -22,7 +22,7 @@ mongoose
     app.use(schemaValidationError)
 
     app.listen(env.PORT, () => {
-      console.log(`🚀 API is running on http://192.168.1.105:${env.PORT}`)
+      console.log(`🚀 API is running on http://192.168.1.109:${env.PORT}`)
     })
   })
   .catch(() => console.log('There was a failure to access the database'))
